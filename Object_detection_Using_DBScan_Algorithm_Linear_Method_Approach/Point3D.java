@@ -1,8 +1,7 @@
 /**
  *  
  *  @author Onel Valery Mezil
- *  @Student number 300 260 630
- *  @CSI2510_Devoir_de_programmation_1
+ 
  *  @Object_detection_Using_Java_and_DBScan_Algorithm
  */
 
