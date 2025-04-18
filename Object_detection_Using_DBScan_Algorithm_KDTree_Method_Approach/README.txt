@@ -1,35 +1,61 @@
-Onel Valery Mezil
-2nd year Computer Engineering
+# 📌 Object Detection Using DBScan Algorithm (KDTree Method Approach)
 
+**Object detection using DBScan Algorithm and Java**
 
-Object detection using DBScan Algorithm and Java
+This project implements the **DBScan clustering algorithm** using a **KDTree** structure for efficient object detection in 3D space. Developed in **Java**, it supports multiple experiments and outputs detailed clustering results.
 
-Ce zip contient les fichiers suivants:
-1) Mes solutions proposées( Code java) : 
-     1)DBScan.java
-     2) NearestNeighbors.java
-     3)NearestNeighborsKD
-     4) KDtree.java 
-     5) Point3D.java, 
-     6) Exp1.java(Implementation complete de l'experience 1) 
-     7) Exp2.java(Implementation complete de l'experience 2).
-     8) Exp3.java(Implementation complete de l'experience 3)
+## 🚀 Overview
 
-2) Un folder contenant les fichiers sortis par mon programme après les tests de l'experience 1. ce sont respectivement:       
-   1) pt1_kd.txt, pt1_lin.txt      
-   2) pt2_kd.txt, pt2_lin.txt 
-   3)pt3_kd.txt, pt3_lin.txt
-   4) pt4_kd.txt, pt1_lin.txt  
-   5) pt5_kd.txt, pt5_lin.txt 
-   6)pt6_kd.txt, pt6_lin.txt 
+The system applies KDTree optimization to speed up neighbor queries in the DBScan algorithm, making it suitable for spatial analysis and large-scale clustering tasks.
 
-3) Un folder contenant les fichiers sortis par mon programme après les tests de l'experience 2. Ce sont respectivement: 
-    1) Point_Cloud_1_lin.txt  et   Point_Cloud_1_kd.txt
-    2) Point_Cloud_2_lin.txt  et   Point_Cloud_2_kd.txt
-    3) Point_Cloud_3_lin.txt  et   Point_Cloud_3_kd.txt
+## 🔍 Features
 
-4) Deux fichier  Pdf  Ce sont
-    1) Experience 3.pdf
-    2) CSI_Projet_partie_II_Report.pdf
+- Unsupervised object detection
+- DBScan clustering algorithm in Java
+- KDTree for efficient nearest-neighbor search
+- Console and file-based output
+- Supports multiple experimental setups
 
-5) Ce fichier README.
+## 📂 Ce zip contient les fichiers suivants:
+
+### 1) Mes solutions proposées (Code Java):
+
+- `DBScan.java`
+- `NearestNeighbors.java`
+- `NearestNeighborsKD.java`
+- `KDtree.java`
+- `Point3D.java`
+- `Exp1.java` – Implémentation complète de l’expérience 1
+- `Exp2.java` – Implémentation complète de l’expérience 2
+- `Exp3.java` – Implémentation complète de l’expérience 3
+
+### 2) Un dossier contenant les fichiers sortis par mon programme après les tests de l'expérience 1:
+
+- `pt1_kd.txt`, `pt1_lin.txt`
+- `pt2_kd.txt`, `pt2_lin.txt`
+- `pt3_kd.txt`, `pt3_lin.txt`
+- `pt4_kd.txt`, `pt4_lin.txt`
+- `pt5_kd.txt`, `pt5_lin.txt`
+- `pt6_kd.txt`, `pt6_lin.txt`
+
+### 3) Un dossier contenant les fichiers sortis par mon programme après les tests de l'expérience 2:
+
+- `Point_Cloud_1_lin.txt` et `Point_Cloud_1_kd.txt`
+- `Point_Cloud_2_lin.txt` et `Point_Cloud_2_kd.txt`
+- `Point_Cloud_3_lin.txt` et `Point_Cloud_3_kd.txt`
+
+### 4) Deux fichiers PDF :
+
+- `Experience 3.pdf`
+- `CSI_Projet_partie_II_Report.pdf`
+
+### 5) Ce fichier README
+
+## 🔧 Technologies
+
+- **Language:** Java
+- **Algorithm:** DBScan with KDTree
+- **Tools:** JDK 17+, any Java IDE (e.g., IntelliJ, Eclipse)
+
+## 📁 Project Structure
+
